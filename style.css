@@ -8,5 +8,8 @@ p{
     background-color: rgba(255, 0, 0, 0.979);
     color: rgb(25, 0, 255);
     width: 22%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
 
 }

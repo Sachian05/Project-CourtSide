@@ -5,6 +5,8 @@ body{
 
 p{
     font-size: xx-large;
-    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.979);
+    color: rgb(25, 0, 255);
+    width: 22%;
 
 }

@@ -91,31 +91,6 @@ body{
     margin-right: 500px;
 }
 
-.landing{
-    color: #fff;
-    font-size: xxx-large;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: poppins;
-    height: 100vh;
-}
-
-#lux{
-    font-size: 5em;
-    font-family: 'Luxurious Script', cursive;
-    text-shadow: 0 0 10px #fff;
-    display: flex;
-    align-items: center;
-    gap: 100px;
-}
-
-#lux img{
-    width: 260px;
-    height: 260px;
-}
-
 .bg{
     background: url(/images/backgroun3.jpg);
     background-position: center;
@@ -131,7 +106,7 @@ body{
     text-align: center;
     font-family: poppins;
     gap: 60px;
-    padding: 60px 400px 60px 400px;
+    padding: 160px 400px 60px 400px;
 }
 
 #info{

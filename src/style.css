@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+
+p{
+    color: #fff;
 }
 
 body{
@@ -70,10 +75,6 @@ body{
     height: 100vh;
 }
 
-.landing h1{
-    font-size: .7em;
-}
-
 #lux{
     font-size: 5em;
     font-family: 'Luxurious Script', cursive;
@@ -91,10 +92,33 @@ body{
 .info{
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    font-family: poppins;
+    gap: 60px;
+    padding: 0px 400px 60px 400px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 200px 0px 200px;
+    color: #fff;
     font-family: poppins;
 }
-p{
-    color: #fff;
+
+#features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+#f1, #f2, #f3{
+    
 }

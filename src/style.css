@@ -39,6 +39,7 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: poppins;
+    z-index: 1000;
 }
 
 .navbar a{
@@ -93,6 +94,12 @@ body{
     height: 260px;
 }
 
+.bg{
+    background: url(/images/backgroun3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .info{
     color: #fff;
     display: flex;
@@ -102,14 +109,24 @@ body{
     text-align: center;
     font-family: poppins;
     gap: 60px;
-    padding: 0px 400px 60px 400px;
+    padding: 60px 400px 60px 400px;
+}
+
+#info{
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .features{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 200px 60px 200px;
     color: #ffffff;
     font-family: poppins;
 }
@@ -135,8 +152,12 @@ body{
 
 #f1, #f2, #f3, #f4{
     padding: 1rem;
-    background-color: gray;
-    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #fimg{

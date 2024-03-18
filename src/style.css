@@ -103,13 +103,15 @@ body{
 
 .features{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
     gap: 50px;
     padding: 0px 200px 0px 200px;
-    color: #fff;
+    color: #ffffff;
     font-family: poppins;
+}
+
+.features h2{
+    text-align: left;
 }
 
 #features{
@@ -119,6 +121,17 @@ body{
     gap: 50px;
 }
 
-#f1, #f2, #f3{
-    
+#f1, #f2, #f3, #f4{
+    padding: 1rem;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+#fimg{
+    width: 350px;
+    border-radius: 1rem;
+}
+
+h1{
+    font-size: xx-large;
 }

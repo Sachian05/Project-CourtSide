@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-}
-
-h1{
-    font-size: xx-large;
-}
-
-p{
-    color: #fff;
 }
 
 body{
@@ -21,35 +14,27 @@ body{
     overflow-y: auto;
 }
 
-.background{
-    background: url(backgroun3.jpg) no-repeat;
-    background-position: center;
-    background-size:cover ;
-    height: 100vh;
-    width: 100%;
-    filter: blur(10px);
-}
-
 .header{
-    position: fixed;
-    width: 100%;
-    padding: 35px 10%;
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: poppins;
     z-index: 1000;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Poppins";
+    padding: 5px 50px;
 }
-
 
 .navbar a{
     position: relative;
     font-size: 16px;
     color: #fff;
-    margin-right: 30px;
     text-decoration: none;
-}
+    }
 
 .navbar a::after{
     content: "";
@@ -71,7 +56,6 @@ body{
 }
 
 #loginbtn{
-    padding: 5px 25px 5px 25px;
     background: rgba(255, 255, 255, 0.19);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -80,6 +64,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.18);
     font-family: "luxurious script";
     font-size: x-large;
+    padding: 5px 25px;
 }
 
 #headerlogo{
@@ -87,8 +72,7 @@ body{
     font-size: 60px;
     color: #fff;
     text-decoration: none;
-    margin-left: 330px;
-    margin-right: 500px;
+    margin: 50vh;
 }
 
 .landing{
@@ -98,7 +82,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: poppins;
+    font-family: "poppins";
     height: 100vh;
 }
 
@@ -114,75 +98,4 @@ body{
 #lux img{
     width: 260px;
     height: 260px;
-}
-
-.bg{
-    background: url(/images/backgroun3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.info{
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: poppins;
-    gap: 60px;
-    padding: 60px 400px 60px 400px;
-}
-
-#info{
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.5px);
-    -webkit-backdrop-filter: blur(6.5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.features{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 0px 200px 60px 200px;
-    color: #ffffff;
-    font-family: poppins;
-}
-
-.features h2{
-    text-align: left;
-    font-size: large;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.features i {
-    font-size: 40px;
-}
-
-#features{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 50px;
-}
-
-#f1, #f2, #f3, #f4{
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.5px);
-    -webkit-backdrop-filter: blur(6.5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-#fimg{
-    width: 350px;
-    border-radius: 1rem;
 }
